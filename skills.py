@@ -3,7 +3,7 @@ import effects
 class GoBerserk:
 	def __init__(self):
 		self.effect = effects.DamageImmunity()
-		self.manaCost = 5
+		self.manaCost = 15
 		
 class MightyPunch:
 	def __init__(self):
@@ -12,7 +12,7 @@ class MightyPunch:
 
 class BlowTheHeadOff:
 	def __init__(self):
-		self.manaCost = 10
+		self.manaCost = 15
 		self.damage = 250
 		self.chance = 25
 
